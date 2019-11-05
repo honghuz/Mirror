@@ -4,7 +4,7 @@
   "description": "Node.js mirror Google, Wikipedia, GitHub etc. with simple configuration.",
   "scripts": {
     "dev": "nodemon --inspect index.js",
-    "build": "next build"
+    "build": "next build",
     "test": "standard && mocha",
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha -- --timeout 100000",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
